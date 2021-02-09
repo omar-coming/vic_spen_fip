@@ -1,0 +1,22 @@
+
+Index: 
+Header: w: 1920px, h: 80px
+Font: Garamond
+logo: w: 254px, h: 244px
+Hero: w: 1880px, h: 600px
+Box 1: w: 930px, h:331px
+Box 2: w: 930px, h:331px
+Box 3: w: 1415px, h:286px
+Box 4: w: 445px, h:286px
+Bottom Hero: w: 1800px, h:600px
+
+Page 2:
+Header: w: 1920px, h: 80px
+Font: Garamond
+logo: w: 254px, h: 244px
+Hero: w: 1415px, h: 600px
+Box 1: w: 1415px, h: 286px
+Box 2 (right side): w: 445px, h:906px
+Middle Section:
+Boxes (all 3 are the same): w: 569px, h: 331
+Bottom Hero: w:1880 H:600
