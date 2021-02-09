@@ -1,3 +1,7 @@
+.hidden{
+    display:none;
+}
+
 #mainContain{
 
     width:1920px;
