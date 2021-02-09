@@ -1,41 +1,136 @@
 #mainContain{
-    height:100%;
-    width:100%;
+
+    width:1920px;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
 }
 
 header{
-    width:100%;
-    height:100px;
+    width:1920px;
+    height:80px;
     background:red;
+    margin-bottom:20px;
+    position:relative;
 }
 
 #logoBlock{
-    height:100px;
-    width:100px;
+    height:254px;
+    width:244px;
     background:blue;
+    position:absolute;
+    top:0px;
+    left:833px;
+    border-radius: 0px 0px 50px 50px;
 }
 
 #hero{
- height:500px;
- width:100%;
- background:yellow;   
+width:1880px;
+height:600px;
+ background:yellow;
+margin-left:20px;
+ margin-bottom:20px; 
 }
 
-#belowHero{
-    height:150px;
-    width:100%;
+#unHero1{
+    height:331px;
+    width:930px;
     background:purple;
+    margin-left:20px;
+    float:left;
+
+}
+
+#unHero2{
+    height:331px;
+    width:930px;
+    background:pink;
+    margin-left:20px;
+    float:right;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+#unHero3{
+    height:286px;
+    width:1415px;
+    background:green;
+    margin-left:20px;
+    float:left;
+}
+
+#unHero4{
+    height:286px;
+    width:445px;
+    background:green;
+    margin-left:20px;
+    float:right;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+#unHeroFooter{
+    width:1880px;
+    height:594px;
+    background:red;
+    margin-left:20px;
+    margin-bottom:20px;
     display:flex;
 }
 
-.belowHeroInside{
-    flex:1 0 49%;
-    height:100%;
+#one{
+width:1415px;
+height:600px;
+background:red;
+margin-bottom:20px;
+margin-left:20px;
+float:left;
 }
 
-footer{
-    width:100%;
-    height:60px;
+#two{
+    height:286px;
+    width:1415px;
     background:blue;
+    margin-left:20px;
+    margin-bottom:20px;
+    float:left;
+}
+
+#three{
+    width:445px;
+    height:906px;
+    background:purple;
+    position:absolute;
+    top:100px;
+    right:20px;
+}
+
+#four{
+    width:570px;
+    height:331px;
+    background:yellow;
+    display:inline-flex;
+    margin-left:20px;
+    margin-bottom:20px;
+
+
+}
+
+#five{
+    width:700px;
+    height:331px;
+    background:yellowgreen;
+    display:inline-flex;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+
+#six{
+    width:570px;
+    height:331px;
+    background:green;
+    display:inline-flex;
+    margin-left:20px;
+    margin-bottom:20px;
 }
 
