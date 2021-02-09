@@ -1,21 +1,23 @@
 Index: 
 Header: w: 1920px, h: 80px
-Font: Garamond
-logo: w: 254px, h: 244px
-Hero: w: 1880px, h: 600px
-Box 1: w: 930px, h:331px
-Box 2: w: 930px, h:331px
-Box 3: w: 1415px, h:286px
+logo: w: 160px, h: 160px
+Hero: w: 1250px, h: 600px
+Box 1: w: 615px, h:331px
+Box 2: w: 615px, h:331px
+Box 3: w: 786px, h:286px
 Box 4: w: 445px, h:286px
-Bottom Hero: w: 1800px, h:600px
+Footer: w: 1250px, h:600px
 
 Page 2:
 Header: w: 1920px, h: 80px
-Font: Garamond
-logo: w: 254px, h: 244px
-Hero: w: 1415px, h: 600px
-Box 1: w: 1415px, h: 286px
-Box 2 (right side): w: 445px, h:906px
-Middle Section:
-Boxes (all 3 are the same): w: 569px, h: 331
-Bottom Hero: w:1880 H:600
+logo: w: 160px, h: 160px
+Box 1: w: 785px, h: 286px
+Box 2: w: 785px, h: 600px
+Box 3: w: 445px, h: 906px
+Boxes 4, 5, 6 (images): w: 406.67px, h: 331px
+Footer: w: 1250px, h:600px
+
+
+Fonts:
+Montserrat
+Lato
