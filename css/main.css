@@ -1,0 +1,41 @@
+#mainContain{
+    height:100%;
+    width:100%;
+}
+
+header{
+    width:100%;
+    height:100px;
+    background:red;
+}
+
+#logoBlock{
+    height:100px;
+    width:100px;
+    background:blue;
+}
+
+#hero{
+ height:500px;
+ width:100%;
+ background:yellow;   
+}
+
+#belowHero{
+    height:150px;
+    width:100%;
+    background:purple;
+    display:flex;
+}
+
+.belowHeroInside{
+    flex:1 0 49%;
+    height:100%;
+}
+
+footer{
+    width:100%;
+    height:60px;
+    background:blue;
+}
+
