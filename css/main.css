@@ -3,6 +3,10 @@
 
 }
 
+img{
+    max-width: 100%;
+}
+
 #mainContain{
     margin:0 auto;
     width:1250px;
@@ -42,30 +46,28 @@ header{
     z-index:1;
     left:0px;
     display:flex;
-
 }
 
 
 
 header nav ul{
-    background-color: red;
+    width:1920px;
     display:flex;
-
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    margin-top:15px;
 }
 
 
 header nav ul li a{
+    text-decoration: none;
     font-size:43px;
     font-family: montserrat;
     font-weight:bold;
     color:white;
     list-style-type: none;
-    margin-left:157.75px;
 }
 
-header nav ul li:nth-child(3){
-    margin-left:720px;
-}
 
 #logoBlock{
     height: 160px;;
@@ -87,10 +89,6 @@ height:600px;
  justify-content: center;
 align-items: center;
 flex-flow:row wrap;
-}
-
-#hero p{
-
 }
 
 /* page 1 (a) */
@@ -243,4 +241,12 @@ footer{
     background:#606060;
     margin-bottom:20px;
     display:flex;
+    margin:0 auto;
+}
+
+#bigBoxa{
+    width:1250px;
+    height:1000px;
+    background-color: red;
+    margin-bottom:20px;
 }
