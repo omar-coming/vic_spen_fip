@@ -352,8 +352,7 @@ flex-flow:row wrap;
 }
 
 .boxes456{
-    height: 406.67px;
-    width:331px;
+    height: auto;
     background:#fff;
     border:1px solid black;
     box-sizing: border-box;
@@ -369,7 +368,7 @@ flex-flow:row wrap;
 
 .boxes456:last-child{
     margin-left:10px;
-    margin-right:0px;
+    margin-right:10px;
 }
 
 footer{
@@ -383,7 +382,17 @@ footer{
 
 #bigBoxa{
     width:1250px;
-    height:1000px;
-    background-color: red;
+    height:auto;
+    background-color: var(--color5);
     margin-bottom:20px;
+    padding:50px;
+    text-align:justify;
+    text-justify: inter-word;
+}
+
+.pageText{
+    font-size:30px;
+    font-family:lato;
+    color:white;
+    line-height:50px;
 }
