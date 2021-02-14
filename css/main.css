@@ -1,7 +1,35 @@
+* {
+    box-sizing: border-box;
+
+}
+
 #mainContain{
     margin:0 auto;
     width:1250px;
     position: relative;
+}
+
+
+
+#hero p{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size:45px;
+    line-height:55px;
+    margin-top:150px;
+    text-transform: uppercase;
+}
+
+#hero input{
+    width:50%;
+    height:92px;
+    width:591px;
+    margin-bottom:150px;
+}
+
+#hero input[type=submit]{
+    height:92px;
+    width:301px;
 }
 
 header{
@@ -13,6 +41,30 @@ header{
     position:relative;
     z-index:1;
     left:0px;
+    display:flex;
+
+}
+
+
+
+header nav ul{
+    background-color: red;
+    display:flex;
+
+}
+
+
+header nav ul li a{
+    font-size:43px;
+    font-family: montserrat;
+    font-weight:bold;
+    color:white;
+    list-style-type: none;
+    margin-left:157.75px;
+}
+
+header nav ul li:nth-child(3){
+    margin-left:720px;
 }
 
 #logoBlock{
@@ -30,6 +82,15 @@ width:1250px;
 height:600px;
  background:#E1E1E1;
  margin-bottom:20px; 
+ display:flex;
+ text-align: center;
+ justify-content: center;
+align-items: center;
+flex-flow:row wrap;
+}
+
+#hero p{
+
 }
 
 /* page 1 (a) */
@@ -39,12 +100,26 @@ height:600px;
     width:1250px;
 }
 
+/* alcoholic quote */
+
 #box1a{
     height:331px;
     width:615px;
-    background:#A8A8A8;
+    background:red;
     float:left;
+    display:flex;
     margin-bottom:20px;
+    box-sizing: border-box;
+    padding:50px;
+}
+
+#box1a p{
+    font-family: lato;
+    font-size:28px;
+    font-weight: normal;
+    line-height:60px;
+    text-transform: none;
+    text-align: right;
 }
 
 #box2a{
@@ -52,6 +127,25 @@ height:600px;
     width:615px;
     background:#CECECE;
     float:right;
+    padding:50px;
+}
+
+#box2a h2{
+    font-family: montserrat;
+    font-size:41px;
+    font-weight: bold;
+    line-height:50px;
+    text-transform: none;
+    text-align: left;
+}
+
+#box2a p{
+    font-family: lato;
+    font-size:28px;
+    font-weight: normal;
+    line-height:60px;
+    text-transform: none;
+    text-align: left;
 }
 
 #section2a{
@@ -64,6 +158,17 @@ height:600px;
     background:#CECECE;
     float:left;
     margin-bottom:20px;
+    padding:50px;
+
+}
+
+#box3a p{
+    font-family: montserrat;
+    font-size:58px;
+    font-weight: bold;
+    line-height:71px;
+    text-transform: none;
+    text-align: left;
 
 }
 
